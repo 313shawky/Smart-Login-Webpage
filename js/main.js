@@ -44,7 +44,6 @@ signup.addEventListener('click', function(){
     }
     else{
         emptySignup.classList.replace("d-none", "d-block");
-        console.log("no input");
     }
 });
 
@@ -65,7 +64,6 @@ login.addEventListener('click', function(){
         emptyLogin.classList.replace("d-block", "d-none");
         var index =  validateEmail(user.email, user.password);
         if(index >= 0){
-            console.log(users[index].name);
             window.location.href = "home.html";
             localStorage.setItem('name', JSON.stringify(users[index].name));
             clearLoginForm();
