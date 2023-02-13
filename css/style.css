@@ -1,0 +1,31 @@
+body{
+    background: linear-gradient(45deg, #0b0c10, #1f2833, #c5c6c7);
+}
+
+.row{
+    background-color: #0b0c10;
+}
+
+h1{
+    color: #66fcf1;
+}
+
+.login, .sign-up{
+    border-color: #66fcf1 !important;
+    color: #66fcf1 !important;
+    transition: all 0.5s;
+}
+
+.login:hover, .sign-up:hover{
+    background-color: #66fcf1 !important;
+    color: #0b0c10 !important;
+}
+
+span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar{
+    background-color: #0b0c10;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <section id="register" class="d-block w-100">
+        <div class="container vh-100 d-flex justify-content-center align-items-center">
+            <div class="row w-75 justify-content-center">
+                <div class="col-md-10 text-center">
+                    <h1 class="pt-5 pb-3">Smart Login System</h1>
+                    <div class="login-form d-block">
+                        <input class="login-email form-control my-3 shadow-none" type="email" name="" id="" placeholder="Enter Your Email - Ex: name@mail.com">
+                        <input class="login-password form-control my-3 shadow-none" type="password" name="" id="" placeholder="Enter Your Password">
+                        <div id="empty-login" class="alert alert-danger py-1 d-none">All Inputs Are Required</div>
+                        <div class="email-error alert alert-danger py-1 d-none">Incorrect Email</div>
+                        <div class="password-error alert alert-danger py-1 d-none">Incorrect Password</div>
+                        <button id="login" class="login btn btn-outline-light w-100 my-3">Login</button>
+                        <p class="my-3 text-white-50">Don't have an account? <span class="signup-link text-white">Sign Up</span></p>
+                    </div>
+                    <div class="signup-form d-none">
+                        <input class="name form-control my-3 shadow-none" type="text" name="" id="name" placeholder="Enter Your Name" required>
+                        <input class="email form-control my-3 shadow-none" type="email" name="" id="email" placeholder="Enter Your Email - Ex: name@mail.com" required>
+                        <input class="password form-control my-3 shadow-none" type="password" name="" id="password" placeholder="Enter Your Password" required>
+                        <div id="empty-signup" class="alert alert-danger py-1 d-none">All Inputs Are Required</div>
+                        <div class="successed alert alert-success py-1 d-none">Successed, You Have An Account Now</div>
+                        <div class="exist alert alert-danger py-1 d-none">Email is already exists</div>
+                        <button id="sign-up" class="sign-up btn btn-outline-light w-100 my-3">Sign Up</button>
+                        <p class="my-3 text-white-50">You have an account? <span class="login-link text-white">Sign In</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
